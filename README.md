@@ -6,7 +6,7 @@ Irrelevant items will have the closest possible length to the probe (depending o
 
 A list of eight such potential irrelevant items will be provided on a list in each category, and in each category, up to two items may be chosen to be omitted due to incidental personal relevance. The final items will be randomly chosen from among the remaining items.
 
-**Usage:**
+**Usage**
 
  - Open "1_item_selection.html" in Google Chrome (e.g. drag into a new Tab)
  - Fill out requested information
