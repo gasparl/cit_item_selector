@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html id="html_id">
+
+<head>
+    <title>Ratings</title>
+    <meta charset="UTF-8">
+    <script src="./js/jquery-2.1.3.min.js" type="text/javascript"></script>
+    <script src="./js/jquery.mb.browser.min.js" type="text/javascript"></script>
+    <script src="./js/ratings.js"></script>
+    <link href="./css/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <div id="div_ratings" style="text-align:left;width: 70%;" class="intro">
+        <div class="wrap">
+            <h1 class="likert-header">Finally, a short questionnaire. Please indicate the level of personal importance of each of the categories in the task: namely, how relevant and meaningful your own country, birthday, or favorite animal is to you.</h1>
+        
+            <form action="">
+                <label class="statement">Personal importance of your country of origin:</label>
+                <ul class='likert'>
+                    <li>
+                        <input type="radio" name="likert_country" value="6">
+                        <label>very important</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="likert_country" value="5">
+                        <label>important</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="likert_country" value="4">
+                        <label>rather important</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="likert_country" value="3">
+                        <label>rather unimportant</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="likert_country" value="2">
+                        <label>unimportant</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="likert_country" value="1">
+                        <label>entirely unimportant</label>
+                    </li>
+                </ul>
+                <label class="statement">Personal importance of your birthday date:</label>
+                <ul class='likert'>
+                    <li>
+                        <input type="radio" name="likert_date" value="6">
+                        <label>very important</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="likert_date" value="5">
+                        <label>important</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="likert_date" value="4">
+                        <label>rather important</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="likert_date" value="3">
+                        <label>rather unimportant</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="likert_date" value="2">
+                        <label>unimportant</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="likert_date" value="1">
+                        <label>entirely unimportant</label>
+                    </li>
+                </ul>
+                <label class="statement">Personal importance of your favorite animal:</label>
+                <ul class='likert'>
+                    <li>
+                        <input type="radio" name="likert_animal" value="6">
+                        <label>very important</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="likert_animal" value="5">
+                        <label>important</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="likert_animal" value="4">
+                        <label>rather important</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="likert_animal" value="3">
+                        <label>rather unimportant</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="likert_animal" value="2">
+                        <label>unimportant</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="likert_animal" value="1">
+                        <label>entirely unimportant</label>
+                    </li>
+                </ul>
+                <br>
+                <br>
+            </form>
+            <button style = "font-size: 1.5vw" class="main_button" onclick="done()">Submit</button>
+        </div>
+
+    </div>
+
+    <div id="instructions" style="text-align:center;width: 70%;font-size: 2vw;" class="intro">That was all. Thank you for your participation!</div>
+
+</body>
+
+</html>
