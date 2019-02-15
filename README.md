@@ -35,4 +35,4 @@ This can of course be modified as well, opening the "2_item_ratings.html" file i
 
 The original German version (see CIT_item_selector_de.zip) was used in:
 
-Lukács, G., Grządziel, A., Kempkes, M., & Ansorge, U. (2019). Item roles explored in a modified P300-based CTP Concealed Information Test. _Applied Psychophysiology and Biofeedback_.
+Lukács, G., Grządziel, A., Kempkes, M., & Ansorge, U. (in press). Item roles explored in a modified P300-based CTP Concealed Information Test. _Applied Psychophysiology and Biofeedback_.
